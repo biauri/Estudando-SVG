@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  height: 100vh;
+  padding: 2em;
+  text-align: center;
+}
+svg {
+  width: auto;
+  height: 100%;
+}
+
+.path-1 {
+  fill: red;
+  transition: .5s;
+}
+.path-1:hover {
+  fill: pink;
+}
+.path-2 {
+  fill: green;
+  transition: .5s;
+}
+.path-2:hover {
+  fill:pink;
+}
+.path-3 {
+  fill: blue;
+  transition: .5s;
+}
+.path-3:hover {
+  fill:pink;
+}
+.path-4 {
+  fill: purple;
+  transition: .5s;
+}
+.path-4:hover {
+  fill:pink;
+}
+.path-5 {
+  fill: orange;
+  transition: .5s;
+}
+.path-5:hover {
+  fill: pink;
+}
